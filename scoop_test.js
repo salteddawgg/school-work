@@ -1,12 +1,19 @@
-var x;
-function sub1() {
-  document.write("x = " + x + "");
-}
-function sub2() {
-  var x;
-  x = 10;
-  sub1();
-}
 
-x = 5;
-sub2();
+
+
+
+
+
+
+var x, y, z;
+function sub1() {
+    var a, y, z;
+    function sub2() {
+        var a, b, z;
+        ...
+    }
+    ...
+}
+function sub3() {
+    var a, x, w;
+}
